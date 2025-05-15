@@ -1,4 +1,8 @@
 package com.domain.devfood.Service;
 
-public class UserService {
+import com.domain.devfood.entity.User;
+
+public interface UserService {
+
+    User registerUser(User user);
 }
